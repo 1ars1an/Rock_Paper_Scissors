@@ -5,9 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RPS</title>
-    <script src="rps.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="rps.js" defer></script>
 </head>
 <body>
-    
+    <div class="header">Welcome To RPS!</div>
+    <div class="content">
+        <div class="htitle">Make Your Choice!</div>
+        <div class="choice">
+            <button id="rock" class="buttons">Rock</button>
+            <button id="paper" class="buttons">Paper</button>
+            <button id="scissor" class="buttons">Scissor</button>
+        </div>
+        <div class="display">
+            <p id="display">Let's see what you got!</p>
+            <div class="result">
+                <div class="user">User Score
+                    <p id="user">0</p>
+                </div>
+                <div class="comp">Computer Score
+                    <p id="comp">0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer"><button id="reset">Reset Game</button></div>
 </body>
 </html>
